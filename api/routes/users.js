@@ -10,8 +10,8 @@ const users = [
 ]
 
 /* GET users listing. */
-router.get('/users', function (req, res, next) {
-  res.json(users)
+router.get('/hello', function (req, res, next) {
+  res.json({ message: 'Hello' })
 })
 
 /* GET user by ID. */
